@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+@font-face {
+    font-family: "irohamaru";
+    src: url("../font/irohamaru.woff") format("woff");
+}
+
+* {
+    font-family: 'irohamaru','M PLUS Rounded 1c','sans-serif';
+    font-weight: 500;
+}
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.content {
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 68px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+.heading {
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.72;
+}
+
+a.button {
+    width: 425px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+a.button p {
+    font-size: 40px;
+}
+
+a.konyu {
+    background-color: #34b68a;
+    border: solid 5px #34b68a;
+    color: #ffffff;
+    transition: background-color 0.2s,color 0.2s;
+}
+
+a.tameshiyomi {
+    background-color: #f8c652;
+    border: solid 5px #f8c652;
+    color: #ffffff;
+    transition: background-color 0.2s,color 0.2s;
+}
+
+a.konyu:hover,
+a.tameshiyomi:hover {
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+a.konyu:hover {
+    color: #34b68a;
+    transition: color 0.2s;
+}
+
+a.tameshiyomi:hover {
+    color: #f8c652;
+    transition: color 0.2s;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---header--- */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #b9f1de;
+}
+
+.header-area {
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    display: inline-block;
+    color: #168c53;
+}
+
+.mark{
+    background: linear-gradient(transparent 40%, #f8c652 40%);
+}
+
+
+/* --- main --- */
+main {
+    width: 100%;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+main > div {
+    position: relative;
+}
+
+
+/* mainvisual */
+.mainvisual {
+    height: 830px;
+    width: 100%;
+}
+
+.mainvisual > .content {
+    padding-top: 45px;
+}
+
+.catchcopy {
+    width: 570px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainvisual .bookimg {
+    width: 40%;
+    float: right;
+    transform: translateY(-200px);
+}
+
+.mainvisual .bookimg > img {
+    width: 100%;
+}
+
+.mainvisual-author{
+    width: 395px;
+    height: auto;
+    margin: 65px 0 73px 0;
+}
+
+.mainvisual-author p:first-child {
+    margin-bottom: 15px;
+}
+
+.mainvisual .content> img {
+    width: 95%;
+    position: relative;
+    top: -112%;
+    right: -110px;
+    z-index: -100;
+}
+
+
+/* implement1 */
+.implement1 {
+    width: 100%;
+    z-index: 100;
+}
+
+.implement1 .content {
+    padding-bottom: 100px;
+}
+
+.implement1 .heading {
+    width: 50%;
+    display: inline-block;
+}
+
+.implement1 .catch-img {
+    width: 50%;
+    display: inline-block;
+}
+
+.implement1 .catch-img > img {
+    width: 100%;
+}
+
+
+/* implement2 */
+.implement2 {
+    width: 100%;
+}
+
+.implement2 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.implement2 .heading {
+    margin-bottom: 60px;
+}
+
+.implement2 .wrapper {
+    justify-content: space-around;
+    align-items: unset;
+}
+
+.implement2 .wrapper > div {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+}
+
+.implement2 h3 {
+    margin-bottom: 10px;
+}
+
+.implement2 .imple-item {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.implement2 .wrapper div:nth-child(3) .imple-item {
+    margin-top: 40px;
+}
+
+.implement2 .wrapper div:nth-child(2) .imple-item {
+    width: 50%;
+    margin: 55px auto 0;
+}
+
+.implement2 .wrapper div:nth-child(3) .imple-item p:first-child {
+    display: inline-block;
+    padding: 0 5px;
+    background-color: #dcdcdc;
+    transform: translate(25px,20px);
+}
+
+.implement2 .wrapper div:nth-child(3) .imple-item p:last-child {
+    display: inline-block;
+    padding: 25px 18px;
+    background-color: #ffffff;
+}
+
+.implement2 .button {
+    margin-top: 20px;
+}
+
+
+
+/* .implement2 .imple-item1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    content: '';
+}
+
+.implement2 .imple-item1 div {
+    width: 50%;
+    padding-top: 50%;
+    text-align: center;
+}
+
+.implement2 .imple-item1 div::after {
+    content: '居場所・関係性';
+} */
+
+/* author-info */
+.author-info {
+    height: 949px;
+    width: 100%;
+}
+
+.author-info .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-info h2 {
+    width: 980px;
+    margin-bottom: 70px;
+}
+
+.author-info .wrapper {
+    width: 950px;
+}
+
+.author-info .wrapper > div:first-child {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.author-info .author-img img {
+    width: calc(100% - 15px);
+}
+
+.author-info h3.author-name {
+    margin-top: 30px;
+}
+
+.author-info .wrapper > div:last-child {
+    width: 65%;
+    height: 100%;
+}
+
+.author-info table {
+    height: 100%;
+    transform: translateY(25px);
+}
+
+.author-info table tr td {
+    min-width: 120px;
+    font-size: 23px;
+}
+
+.author-info table tr:last-child td {
+    padding: 0;
+}
+
+.author-info .author-name {
+    font-size: 55px;
+}
+
+
+/* credit */
+.credit {
+    margin: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit .content {
+    height: 100%;
+    width: 70%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.credit h2 {
+    margin-bottom: 100px;
+}
+
+.credit img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.credit .bookinfo {
+    height: 100%;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.credit h2 {
+    display: inline-block;
+}
+
+.credit .bookinfo-content {
+    display: flex;
+    justify-content: space-around;
+    width: 425px;
+    padding: 30px 100px 30px 0px;
+    margin-left: 10px;
+}
+
+.credit .bookinfo-content p {
+    display: contents;
+    padding-left: 10px;
+}
+
+.credit .bookinfo-content p::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    left: -7px;
+    width: 102%;
+    height: 2px;
+    background-color: #707070;
+}
+
+.credit-button {
+    display: flex;
+}
+
+.credit .button {
+    width: 212px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.credit .button p {
+    font-size: 20px;
+}
+
+
+
+/* contact */
+div.contact {
+    height: 1402px;
+    width: 100%;
+}
+
+.contact .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.contact .heading {
+    margin: 70px 0 30px 0;
+}
+
+.contact .wrapper {
+    flex-direction: column;
+}
+
+.contact .wrapper > div {
+    width: 100%;
+    display: flex;
+}
+
+.contact .lead-content {
+    width: 75%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .leadimg {
+    width: 25%;
+}
+
+.contact .lead-img img {
+    width: 100%;
+    padding: 0 0 0 30px;
+}
+
+.contact .wrapper > div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.contact .wrapper > div:nth-child(2) img {
+    padding: 0 30px 0 0;
+}
+
+.contact .button {
+    margin-top: 20px;
+}
+
+a.kouza {
+    color: #f8c652;
+    border: solid #f8c652 5px;
+}
+
+a.contact {
+    color: #34b68a;
+    border: solid #34b68a 5px;
+}
+
+
+/* ---footer--- */
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #b9f1de;
+}
+
+.footer-area {
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #2e2e2e;
+}
+
+a.kouza:hover {
+    color: #ffffff;
+    background-color: #f8c652;
+    transition: background-color 0.3s;
+}
+
+a.contact:hover {
+    color: #ffffff;
+    background-color: #34b68a;
+    transition: background-color 0.3s;
+}
+
+
+
+/* ---sampleview--- */
+.sampleview {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: -10000px;
+    left: 0;
+    background-color: #2e2e2ec5;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sampleview .main-carousel {
+    height: 80vh;
+    min-height: 400px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 80vh;
+}
+
+.sampleview .slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sampleview .slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+a.sampleclose.button {
+    width: 330px;
+    height: 75px;
+    max-width: 70vh;
+    margin-top: 5vh;
+    background-color: #ffc233;
+}
+
+a.sampleclose p {
+    font-size: 30px;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    height: 100% !important;
+}
+
+
+/* -----responsive----- */
+
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 33px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .content {
+        padding: 0 40px;
+    }
+
+    .catchcopy {
+        width: 490px;
+        height: 145px;
+    }
+
+    .catchcopy > h1 {
+        left: 0;
+    }
+
+    .implement1 .content {
+        padding: 120px 80px 100px;
+    }
+
+    .mainvisual .content> img {
+        width: 78%;
+        top: -104%;
+        right: -190px;
+    }
+
+    .mainvisual {
+        height: 675px;
+    }
+
+    .mainvisual .bookimg > img {
+        transform: translateY(60px);
+        width: 90%;
+    }
+
+    .credit .bookinfo {
+        width: 72%;
+    }
+
+    .header-area {
+        padding-left: 40px;
+    }
+}
+
+
+
+@media (max-width: 1100px) {
+    .header-area {
+        padding-left: 0;
+    }
+
+    .mainvisual .bookimg > img {
+        transform: translateY(0px);
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .mainvisual {
+        height: auto;
+    }
+
+    .mainvisual .content {
+        padding-bottom: 45px;
+    }
+
+    .mainvisual .bookimg {
+        float: unset;
+        transform: translateY(0px);
+        margin-top: 30px;
+    }
+
+    .mainvisual-author {
+        width: 330px;
+        margin: 40px 0;
+    }
+
+    .mainvisual-author p:first-child {
+        margin-bottom: 10px;
+    }
+
+    .mainvisual .content > img {
+        position: absolute;
+        top: 10vh;
+        width: 130vw;
+        right: -57vw;
+    }
+
+    a.button {
+        width: 300px;
+        height: 75px;
+    }
+
+    a.kouza,
+    a.contact {
+        width: 350px;
+    }
+
+    a.button p {
+        font-size: 30px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .implement1 .heading {
+        width: 100%;
+    }
+
+    .implement1 .heading {
+        margin-bottom: 20px;
+    }
+
+    .content,
+    .implement1 .content {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .implement1 .content {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .background-img {
+        width: 200%;
+        transform: translateX(-53vw);
+    }
+
+    .implement2 .wrapper > div {
+        width: 50%;
+        padding-bottom: 120px;
+    }
+
+    .implement2 h3 {
+        margin-bottom: 5px;
+    }
+
+    .implement2 .wrapper {
+        align-items: center;
+    }
+
+    .implement2 .wrapper div:nth-child(2) .imple-item {
+        margin-top: 15px;
+    }
+
+    .implement2 .wrapper div:nth-child(3) .imple-item {
+        margin-top: 0px;
+    }
+
+    .implement2 .wrapper > div:last-child {
+        padding-bottom: 60px;
+    }
+
+    .content {
+        padding-bottom: 20px;
+    }
+
+    .contact .wrapper > div {
+        margin-bottom: 30px;
+    }
+
+    .author-info h2 {
+        text-align: center;
+    }
+
+    .author-name {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .author-info h3.author-name {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .author-info table {
+        height: 170%;
+        margin: 0 auto;
+    }
+
+    .author-info .background-img {
+        width: 320%;
+        height: 108%;
+        transform: translateX(-93vw);
+    }
+
+    .author-info table tr td {
+        font-size: 17px;
+    }
+
+    .author-info .content {
+        padding-bottom: 0;
+    }
+
+    .credit h2 {
+        margin-bottom: 80px;
+    }
+
+    .credit .bookinfo-content {
+        padding-right: 0;
+        width: 267px;
+        margin-left: 0;
+    }
+
+    .bookinfo h3 {
+        width: 267px;
+    }
+
+    .credit .content {
+        width: 100%;
+    }
+
+    .credit img {
+        width: 50%;
+    }
+
+    .credit .bookinfo {
+        width: 50%;
+        padding-left: 0;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .credit-button {
+        width: 100%;
+    }
+
+    .credit .wrapper {
+        flex-direction: column;
+    }
+
+    .credit .button {
+        width: 100%;
+    }
+
+    .credit .button p {
+        font-size: 15px;
+    }
+
+    .mainvisual .bookimg {
+        width: 40vw;
+    }
+
+    .implement1 .catch-img {
+        width: 100%;
+    }
+
+    .author-info .wrapper {
+        width: 98vw;
+    }
+
+    .author-info h2 {
+        margin-bottom: 40px;
+    }
+
+    .author-info .wrapper > div:first-child {
+        width: 43vw;
+        margin-right: 0;
+        min-width: 176px;
+    }
+
+    .author-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .author-info .wrapper > div:last-child {
+        width: 90vw;
+    }
+
+    div.contact {
+        padding-top: 30px;
+        height: 100%;
+    }
+
+    header p {
+        padding-left: 5vw;
+    }
+
+    .implement1 .background-img {
+        height: 108%;
+    }
+
+    .credit .button {
+        margin-right: 10px;
+    }
+    .credit .button:last-child {
+        margin-right: 0;
+    }
+
+    .sampleview .main-carousel {
+        width: 95vw;
+    }
+}
+
+@media (max-width:650px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .catchcopy {
+        width: 310px;
+        height: 110px;
+    }
+
+    .content
+
+    .mainvisual .content > img {
+        top: 10vh;
+    }
+
+    .implement2 .wrapper > div {
+        width: 80%;
+    }
+
+    .author-info table tr td {
+        font-size: 3.5vw;
+    }
+
+    .credit-button {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .credit .button {
+        margin-bottom: 10px;
+    }
+
+    .bookinfo div h3 {
+        width: 100vw;
+        font-size: 34px;
+        transform: translateX(-40%);
+    }
+
+    .credit img {
+        transform: translateY(20px);
+    }
+
+    .contact .wrapper > div {
+        flex-direction: column-reverse;
+    }
+
+    .contact .wrapper > div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .contact .lead-img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact .lead-img img {
+        width: 50vw;
+        margin-bottom: 5px;
+    }
+
+    .contact .lead-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .credit .bookinfo-content {
+        width: 65vw;
+        max-width: 205px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .credit img {
+        width: 267px;
+    }
+
+    header p,
+    .content {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .bookinfo div:first-child {
+        position: relative;
+    }
+
+    .bookinfo h3 {
+        width: 86%;
+        max-width: 267px;
+    }
+
+    .credit h2 {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .bookinfo {
+        transform: translateY(40px);
+    }
+
+    .bookinfo-content {
+        padding-left: 0;
+    }
+
+    .credit .bookinfo {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainvisual-author {
+        width: 300px;
+    }
+}
